@@ -1,0 +1,48 @@
+.CardProject.Div {
+  background-color: gold;
+}
+/* .CardProject.Sub-Div {
+  min-width: "300px";
+  min-height: "200px ";
+  padding: "5px";
+} */
+.projectsList {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.hoveredCard {
+  z-index: 3;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.659);
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.hoveredCard > div > a {
+  color: white;
+  padding: 10px;
+}
+.Projects-Div {
+  margin-top: 100px;
+}
+.Projects-Div > div {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 400px) {
+  .CardProject.Sub-Div {
+    width: 400px;
+    height: 400px;
+  }
+  .hoveredCard {
+    width: 400px;
+    height: 400px;
+  }
+} ;

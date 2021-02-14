@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Miriam+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@700&family=Secular+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+h3 {
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+}
+.subtitle {
+  border-bottom: hotpink solid thin;
+}
+
+.HomePage-Div {
+  background-color: antiquewhite;
+  min-height: max-content;
+}
+
+.title.myname {
+  font-size: 25px;
+  font-family: "Merienda One", cursive;
+  color: rgb(2, 2, 90);
+  padding: 20px;
+}
+.Top-Div {
+  min-height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* INTRO */
+.intro-item.text {
+  padding: 30px;
+  background-color: white;
+  height: max-content;
+  margin: 20px;
+}
+.me {
+  height: 200px;
+}
+/* skills */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 15px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.container > div {
+  border: brown thin solid;
+  width: max-content;
+  min-width: 100px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* .subtitle > div {
+  margin: 20px;
+  background-color: gold;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+} */
+.subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.space {
+  height: 100px;
+}
+
+/* FOOTER */
+.Footer {
+  background-color: antiquewhite;
+  padding: 5%;
+}
+@media only screen and (min-width: 400px) {
+  h3 {
+    font-size: 40px;
+  }
+  .title.myname {
+    font-size: 130px;
+    padding: 50px;
+  }
+  .HomePage-Div {
+    height: max-content;
+  }
+  .Top-Div {
+    min-height: 100vh;
+  }
+  /* INTRO */
+  .Intro-Div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+  }
+  .me {
+    height: 600px;
+  }
+  .intro-item.text {
+    min-width: 75vh;
+  }
+  /* SKILLS */
+  .space {
+    height: 130px;
+  }
+}
