@@ -2,6 +2,7 @@
   min-height: 100px;
   display: flex;
   justify-content: flex-end;
+  background-color: antiquewhite;
 }
 .NavBar > a {
   text-decoration: none;
