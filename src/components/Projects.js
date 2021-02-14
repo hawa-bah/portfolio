@@ -4,6 +4,7 @@ import "./CardProject.css";
 import CardProject from "./CardProject";
 import quiz from "../images/quiz-logo.png";
 import tira from "../images/Tira-logo.png";
+import booky from "../images/booky-logo.png";
 
 const Projects = () => {
   const projectsList = [
@@ -21,7 +22,7 @@ const Projects = () => {
       demoLink: "https://black-codher-hawa.herokuapp.com/",
     },
     {
-      img: "",
+      img: booky,
       name: "This portafolio",
       githubLink: "",
       demoLink: "",

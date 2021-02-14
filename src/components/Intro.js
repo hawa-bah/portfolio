@@ -9,7 +9,7 @@ const Intro = () => {
           <img src={me} className="me" alt="me"></img>
         </div>
         <div className="intro-item text">
-          <h3 className="title">About me</h3>
+          <h3 className="subtitle">About me</h3>
           <p>Talk about me here</p>
         </div>
       </div>
