@@ -7,12 +7,12 @@ const NavBar = () => {
       <a href="#Top" className="view">
         About Me
       </a>
-      <a href="#Projects" className="view">
-        My work
-      </a>
       {/* <a href="#Top" class="view">Read Me</a> */}
       <a href="#Skills" className="view">
         Skills
+      </a>
+      <a href="#Projects" className="view">
+        My work
       </a>
     </div>
   );

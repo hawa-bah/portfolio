@@ -13,6 +13,7 @@ html,
 h3 {
   font-family: "Secular One", sans-serif;
   font-size: 20px;
+  min-width: max-content;
 }
 .subtitle {
   border-bottom: hotpink solid thin;
@@ -81,8 +82,8 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .space {
@@ -111,6 +112,7 @@ h3 {
   /* INTRO */
   .Intro-Div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
     margin-left: 15%;
@@ -121,7 +123,8 @@ h3 {
     height: 600px;
   }
   .intro-item.text {
-    min-width: 75vh;
+    min-width: 400px;
+    max-width: 700px;
   }
   /* SKILLS */
   .space {
