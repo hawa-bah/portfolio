@@ -22,7 +22,8 @@ const Intro = () => {
             <a href="https://www.linkedin.com/in/hawa-bah-bah/">
               <i class="fab fa-linkedin fa-7x"></i>
             </a>
-            <a herf="https://twitter.com/HawaCodes">
+
+            <a class="twitter-profile" href="https://twitter.com/HawaCodes/">
               <i class="fab fa-twitter fa-7x"></i>
             </a>
             <a href="https://github.com/">

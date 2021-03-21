@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Miriam+Libre&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@700&family=Secular+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap");
 body,
 html,
 .body {
@@ -26,7 +26,7 @@ h3 {
 
 .title.myname {
   font-size: 25px;
-  font-family: "Merienda One", cursive;
+  font-family: "Source Serif Pro", serif;
   color: rgb(2, 2, 90);
   padding: 15px;
 }
