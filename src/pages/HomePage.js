@@ -17,7 +17,6 @@ const HomePage = () => {
         <div className="space"></div>
         <Skills />
         <div className="space"></div>
-
         <Projects />
       </div>
     </>
