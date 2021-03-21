@@ -1,14 +1,12 @@
-import react from "react";
+import React from "react";
 
 const Skills = () => {
   return (
     <>
       <div className="Skills-Div" id="Skills">
-        {/* <div className="skills subtitle"> */}
         <div className="skills subtitle">
           <h3>Technical Skills</h3>
         </div>
-        {/* </div>{" "} */}
         <div className="container">
           <div>HTML</div>
           <div>CSS</div>

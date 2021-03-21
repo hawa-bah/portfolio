@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 import "./CardProject.css";
 import CardProject from "./CardProject";

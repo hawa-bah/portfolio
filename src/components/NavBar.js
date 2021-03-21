@@ -1,5 +1,5 @@
-import react from "react";
-import { Link, BrowserRouter as Router, NavLink } from "react-router-dom";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 const NavBar = () => {
   return (
@@ -14,6 +14,9 @@ const NavBar = () => {
       <a href="#Projects" className="view">
         My work
       </a>
+      <NavLink to="/blog" className="view">
+        Blog
+      </NavLink>
     </div>
   );
 };

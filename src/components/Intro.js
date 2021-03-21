@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import me from "../images/userprofileFilterCut.jpeg";
 
 const Intro = () => {
