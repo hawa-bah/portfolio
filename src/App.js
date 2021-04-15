@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/blog">
           <BlogPage />
         </Route>
+        {/* <Route exact path="" */}
       </Router>
     </div>
   );
